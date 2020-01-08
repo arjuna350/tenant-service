@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+	<Properties>
+		<Property name="log-path">./logs/tenant-service</Property>
+		<Property name="log-project-name">tenant-service</Property>
+		<Property name="log-pattern">%d %-4relative [%thread] %-5level %logger{35} - %msg%n</Property>
+		<Property name="rollover-strategy-max">30</Property>
+		<Property name="rolling-size-based">5 MB</Property>
+	</Properties>
+	<appenders>
+	
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>${log-pattern}</pattern>
+			</PatternLayout>
+		</Console>
+		
+  		<RollingFile name="INFO" fileName="${log-path}/${log-project-name}.log" filePattern="${log-path}/${log-project-name}-%d-%i.log.zip">
+			<PatternLayout>
+				<pattern>${log-pattern}</pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="${rolling-size-based}" />
+			</Policies>
+			<DefaultRolloverStrategy max="${rollover-strategy-max}" />
+		</RollingFile>
+	
+	</appenders>
+	
+	<Loggers>
+	
+		<logger name="com.infa.products" level="info"/>
+		
+		<Root level="info">
+			<AppenderRef ref="INFO"/>
+			<AppenderRef ref="Console" />
+		</Root>
+		
+	</Loggers>
+	
+</configuration>

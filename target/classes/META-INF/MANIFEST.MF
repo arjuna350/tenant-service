@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Implementation-Title: Tenant Service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: shaising
+Implementation-Vendor-Id: tenant-service
+Class-Path: dependency-jars/spring-boot-starter-web-1.5.9.RELEASE.jar 
+ dependency-jars/spring-boot-starter-1.5.9.RELEASE.jar dependency-jars
+ /spring-boot-1.5.9.RELEASE.jar dependency-jars/spring-boot-autoconfig
+ ure-1.5.9.RELEASE.jar dependency-jars/spring-boot-starter-logging-1.5
+ .9.RELEASE.jar dependency-jars/logback-classic-1.1.11.jar dependency-
+ jars/logback-core-1.1.11.jar dependency-jars/jul-to-slf4j-1.7.25.jar 
+ dependency-jars/log4j-over-slf4j-1.7.25.jar dependency-jars/snakeyaml
+ -1.17.jar dependency-jars/spring-boot-starter-tomcat-1.5.9.RELEASE.ja
+ r dependency-jars/tomcat-embed-core-8.5.23.jar dependency-jars/tomcat
+ -annotations-api-8.5.23.jar dependency-jars/tomcat-embed-el-8.5.23.ja
+ r dependency-jars/tomcat-embed-websocket-8.5.23.jar dependency-jars/h
+ ibernate-validator-5.3.6.Final.jar dependency-jars/validation-api-1.1
+ .0.Final.jar dependency-jars/jboss-logging-3.3.1.Final.jar dependency
+ -jars/jackson-databind-2.8.10.jar dependency-jars/jackson-core-2.8.10
+ .jar dependency-jars/spring-web-4.3.13.RELEASE.jar dependency-jars/sp
+ ring-aop-4.3.13.RELEASE.jar dependency-jars/spring-beans-4.3.13.RELEA
+ SE.jar dependency-jars/spring-context-4.3.13.RELEASE.jar dependency-j
+ ars/spring-webmvc-4.3.13.RELEASE.jar dependency-jars/spring-expressio
+ n-4.3.13.RELEASE.jar dependency-jars/spring-core-4.3.13.RELEASE.jar d
+ ependency-jars/spring-boot-starter-data-cassandra-1.5.9.RELEASE.jar d
+ ependency-jars/spring-tx-4.3.13.RELEASE.jar dependency-jars/spring-da
+ ta-cassandra-1.5.9.RELEASE.jar dependency-jars/spring-cql-1.5.9.RELEA
+ SE.jar dependency-jars/spring-data-commons-1.13.9.RELEASE.jar depende
+ ncy-jars/jcl-over-slf4j-1.7.25.jar dependency-jars/springfox-swagger2
+ -2.8.0.jar dependency-jars/swagger-models-1.5.14.jar dependency-jars/
+ springfox-spi-2.8.0.jar dependency-jars/springfox-core-2.8.0.jar depe
+ ndency-jars/byte-buddy-1.7.9.jar dependency-jars/springfox-schema-2.8
+ .0.jar dependency-jars/springfox-swagger-common-2.8.0.jar dependency-
+ jars/springfox-spring-web-2.8.0.jar dependency-jars/reflections-0.9.1
+ 1.jar dependency-jars/javassist-3.21.0-GA.jar dependency-jars/classma
+ te-1.3.4.jar dependency-jars/slf4j-api-1.7.25.jar dependency-jars/spr
+ ing-plugin-core-1.2.0.RELEASE.jar dependency-jars/spring-plugin-metad
+ ata-1.2.0.RELEASE.jar dependency-jars/mapstruct-1.2.0.Final.jar depen
+ dency-jars/springfox-swagger-ui-2.8.0.jar dependency-jars/jackson-ann
+ otations-2.9.8.jar dependency-jars/lombok-1.16.18.jar dependency-jars
+ /cassandra-driver-core-3.1.1.jar dependency-jars/netty-handler-4.0.37
+ .Final.jar dependency-jars/netty-buffer-4.0.37.Final.jar dependency-j
+ ars/netty-common-4.0.37.Final.jar dependency-jars/netty-transport-4.0
+ .37.Final.jar dependency-jars/netty-codec-4.0.37.Final.jar dependency
+ -jars/metrics-core-3.1.5.jar dependency-jars/jnr-ffi-2.0.7.jar depend
+ ency-jars/jffi-1.2.10.jar dependency-jars/jffi-1.2.10-native.jar depe
+ ndency-jars/asm-5.0.3.jar dependency-jars/asm-commons-5.0.3.jar depen
+ dency-jars/asm-analysis-5.0.3.jar dependency-jars/asm-tree-5.0.3.jar 
+ dependency-jars/asm-util-5.0.3.jar dependency-jars/jnr-x86asm-1.0.2.j
+ ar dependency-jars/jnr-posix-3.0.27.jar dependency-jars/jnr-constants
+ -0.9.0.jar dependency-jars/guava-18.0.jar dependency-jars/swagger-ann
+ otations-1.5.18.jar dependency-jars/okhttp-2.7.5.jar dependency-jars/
+ okio-1.6.0.jar dependency-jars/logging-interceptor-2.7.5.jar dependen
+ cy-jars/gson-2.8.1.jar dependency-jars/gson-fire-1.8.0.jar dependency
+ -jars/threetenbp-1.3.5.jar
+Build-Jdk: 1.8.0_111
+Implementation-URL: http://projects.spring.io/spring-boot/tenant-servi
+ ce/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.infa.products.tenant.app.TenantApplication
+
